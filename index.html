@@ -4,14 +4,14 @@
  <meta charset"utf-8">
  <title>Dokument titel</title>
  <style>
-  html{
-font-family: "Gill Sans", sans-serif;
-  scroll-behavior: smooth;
-}
-  h1[id="kap"] { scroll-margin-top: 16px; }
-ul{
-  list-style-type: none;
-  padding: 0;
+   html{
+       font-family: "Gill Sans", sans-serif;
+       scroll-behavior: smooth;
+   }
+   h1[id="kap"] { scroll-margin-top: 16px; }
+   ul{
+      list-style-type: none;
+      padding: 0;
   margin: 0;
   overflow:hidden;
   background-color: #f1f1f1;
@@ -74,27 +74,30 @@ li.dropdown {
  </style>
  </head>
  <body>
-<div style="margin-left:20%;margin-right:20%;" >
-<center><img src="maine-coon-race.jpg" alt="Her er en lille sød missekat" height="500" width="500"></center>
-</div>
-<Br>
-<nav>
-  <details>
-    <summary style="cursor:pointer; font-weight:700;">Kapiteloversigt</summary>
-    <ol>
-      <li><a href="#kap1">Kapitel 1</a></li>
-      <li><a href="#kap2">Kapitel 2</a></li>
-      <li><a href="#kap3">Kapitel 3</a></li>
-      <li><a href="#kap4">Kapitel 4</a></li>
-      <li><a href="#kap5">Kapitel 5</a></li>
-      <li><a href="#kap6">Kapitel 6</a></li>
-      <li><a href="#kap7">Kapitel 7</a></li>
-      <li><a href="#kap8">Kapitel 8</a></li>
-      <li><a href="#kap9">Kapitel 9</a></li>
-      <li><a href="#kap10">Kapitel 10</a></li>
-    </ol>
-  </details>
+   <div style="margin-left:20%;margin-right:20%;" >
+      <center><img src="maine-coon-race.jpg" alt="Her er en lille sød missekat" height="500" width="500"></center>
+   </div>
+   <Br>
+   <nav>
+    <div style="margin-left:20%;margin-right:20%;" >
+    <ul>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Gå til kapitel</a>
+       <div class="dropdown-content">
+      <a href="#kap1">Kapitel 1</a>
+      <a href="#kap2">Kapitel 2</a>
+      <a href="#kap3">Kapitel 3</a>
+      <a href="#kap4">Kapitel 4</a>
+      <a href="#kap5">Kapitel 5</a>
+      <a href="#kap6">Kapitel 6</a>
+      <a href="#kap7">Kapitel 7</a>
+      <a href="#kap8">Kapitel 8</a>
+      <a href="#kap9">Kapitel 9</a>
+      <a href="#kap10">Kapitel 10</a>
+     </div>
+      </ul>
 </nav>
+ </div>
 <div style="margin-left:20%;margin-right:20%;" >
 <center>
 <H1>Maine Coon</H1>
